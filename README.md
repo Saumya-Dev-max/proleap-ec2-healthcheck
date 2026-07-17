@@ -134,4 +134,6 @@ The following Git operations are demonstrated in this project:
 # License
 
 This project is created for educational purposes as part of the ProLEAP Academy practical assignment.
+## Repository Information
 
+This project is maintained as part of the ProLEAP Academy Git practical assignment.
