@@ -99,4 +99,12 @@ After successful execution, the script will:
 * Generate a timestamped report.
 * Save the report inside the `reports/` directory.
 * Display the report location on the terminal.
+## Additional Troubleshooting
 
+If permission is denied while executing the script, run:
+
+```bash
+chmod +x healthcheck.sh
+```
+
+Then execute the script again.
