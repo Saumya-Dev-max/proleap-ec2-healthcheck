@@ -1,0 +1,14 @@
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+
+# Environment File
+.env
+
+# Credentials
+credentials.txt
+
+# Ignore Generated Health Reports
+reports/health-report-*.txt
