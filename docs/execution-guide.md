@@ -108,3 +108,6 @@ chmod +x healthcheck.sh
 ```
 
 Then execute the script again.
+## Note
+
+This repository demonstrates Git collaboration and synchronization workflows.
