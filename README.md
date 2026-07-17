@@ -23,6 +23,7 @@ The project includes a Bash-based Linux health-check script that collects import
 * Listening ports
 * Automatic report generation inside the `reports/` directory
 * Git workflow demonstration using GitHub
+* Disk utilization status (Normal, Warning, Critical)
 
 ---
 

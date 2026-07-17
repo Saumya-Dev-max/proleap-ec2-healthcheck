@@ -73,6 +73,17 @@ disk_information() {
 
     df -h /
 
+    DISK_USAGE=$(df / | awk 'NR==2 {gsub("%",""); print $5}')
+
+    echo
+    if [ "$DISK_USAGE" -lt 80 ]; then
+        echo "Disk Status : Normal"
+    elif [ "$DISK_USAGE" -lt 90 ]; then
+        echo "Disk Status : Warning"
+    else
+        echo "Disk Status : Critical"
+    fi
+
 }
 
 # -----------------------------
